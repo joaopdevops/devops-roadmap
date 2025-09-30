@@ -1,6 +1,7 @@
 ## 📊 Roadmap de Estudos
 
-### Fase 1 – Fundamentos (Concluído ✅)  
+### Fase 1 – Fundamentos 
+### (Concluído ✅)  
 - [x] O que é DevOps?  
 - [x] Por que usar DevOps?  
 - [x] Papel do DevOps no SDLC  
@@ -9,7 +10,8 @@
 
 ---
 
-### Fase 2 – Máquinas Virtuais & Cloud (Concluído ✅)
+### Fase 2 – Máquinas Virtuais & Cloud 
+### (Concluído ✅)
 - [x] O que é uma VM (física x virtual)  
 - [x] Criando VMs na AWS e Azure  
 - [x] Conectando em instâncias EC2  
@@ -17,7 +19,8 @@
 
 ---
 
-### Fase 3 – Linux & Shell Scripting  (Concluído ✅) 
+### Fase 3 – Linux & Shell Scripting 
+### (Concluído ✅) 
 - [x] Fundamentos do Linux  
 - [x] Shell scripting para automação  
 - [x] Projetos práticos com Shell  
@@ -25,7 +28,8 @@
 
 ---
 
-### Fase 4 – Git & Versionamento (Em andamento 🚧)
+### Fase 4 – Git & Versionamento 
+### (Em andamento 🚧)
 - [x] Introdução ao Git e GitHub  
 - [ ] Estratégias de branching (Git Flow)  
 - [ ] Comandos Git mais usados  
