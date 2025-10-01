@@ -41,8 +41,7 @@
 
 ### Fase 5 – AWS & IaC  
 - [ ] Top 15 serviços AWS para DevOps  
-- [ ] Ansible – fundamentos e automação  
-- [ ] Projetos práticos com Ansible  
+- [ ] Ansible – fundamentos e automação   
 - [ ] Terraform – fundamentos e prática  
 - [ ] Projetos práticos com Terraform  
 
@@ -50,7 +49,7 @@
 
 ### Fase 6 – CI/CD  
 - [ ] O que é CI/CD? (explicação detalhada)  
-- [ ] Jenkins – Zero to Hero (3 projetos práticos)  
+- [ ] Jenkins – fundamentos  
 - [ ] GitHub Actions (runners e comparação com Jenkins)  
 - [ ] Estratégias de pipelines reais  
 - [ ] Jira & ferramentas de gestão de projetos  
