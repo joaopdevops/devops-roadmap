@@ -29,7 +29,7 @@
 ---
 
 ### Fase 4 – Git & Versionamento 
-### (Em andamento 🚧)
+### (Concluído ✅) 
 - [x] Introdução ao Git e GitHub  
 - [ ] Estratégias de branching (Git Flow)  
 - [ ] Comandos Git mais usados  
@@ -40,9 +40,10 @@
 ---
 
 ### Fase 5 – AWS & IaC  
-- [ ] Top 15 serviços AWS para DevOps  
-- [ ] Ansible – fundamentos e automação   
-- [ ] Terraform – fundamentos e prática  
+### (Em andamento 🚧)
+- [x] Top 15 serviços AWS para DevOps  
+- [x] Ansible – fundamentos e automação   
+- [x] Terraform – fundamentos e prática  
 - [ ] Projetos práticos com Terraform  
 
 ---
