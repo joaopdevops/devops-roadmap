@@ -31,40 +31,42 @@
 ### Fase 4 – Git & Versionamento 
 ### (Concluído ✅) 
 - [x] Introdução ao Git e GitHub  
-- [ ] Estratégias de branching (Git Flow)  
-- [ ] Comandos Git mais usados  
-- [ ] Merge vs Rebase  
-- [ ] Deploy da primeira aplicação na AWS com GitHub  
-- [ ] Perguntas de entrevistas sobre Git  
+- [x] Estratégias de branching (Git Flow)  
+- [x] Comandos Git mais usados  
+- [x] Merge vs Rebase  
+- [x] Deploy da primeira aplicação na AWS com GitHub  
+- [x] Perguntas de entrevistas sobre Git  
 
 ---
 
 ### Fase 5 – AWS & IaC  
-### (Em andamento 🚧)
+### (Concluído ✅)
 - [x] Top 15 serviços AWS para DevOps  
 - [x] Ansible – fundamentos e automação   
 - [x] Terraform – fundamentos e prática  
-- [ ] Projetos práticos com Terraform  
+- [x] Projetos práticos com Terraform  
 
 ---
 
 ### Fase 6 – CI/CD  
-- [ ] O que é CI/CD? (explicação detalhada)  
-- [ ] Jenkins – fundamentos  
-- [ ] GitHub Actions (runners e comparação com Jenkins)  
-- [ ] Estratégias de pipelines reais  
-- [ ] Jira & ferramentas de gestão de projetos  
+### (Em andamento 🚧)
+- [x] O que é CI/CD? (explicação detalhada)  
+- [x] GitHub Actions (runners e automação)  
+- [x] Estratégias de pipelines reais  
+- [ ] GitLab CI/CD (pipelines, runners, variables)  
 
 ---
 
 ### Fase 7 – Containers & Kubernetes  
-- [ ] Introdução a containers  
-- [ ] Docker Fundamentals (instalação, configuração, builds)  
+### (Em andamento 🚧)
+- [x] Introdução a containers  
+- [x] Docker Fundamentals (instalação, configuração, builds)  
 - [ ] Projetos práticos com Docker (multi-stage, networking, volumes, Compose)  
 - [ ] Perguntas de entrevistas sobre Docker  
 - [ ] Kubernetes – introdução e arquitetura  
 - [ ] Kubernetes – pods, deployments, services, ingress, RBAC, ConfigMaps & Secrets  
 - [ ] Projetos práticos com Kubernetes  
+- [ ] ArgoCD – GitOps e deploy contínuo em Kubernetes  
 
 ---
 
