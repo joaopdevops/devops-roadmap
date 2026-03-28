@@ -61,8 +61,8 @@
 ### (Em andamento 🚧)
 - [x] Introdução a containers  
 - [x] Docker Fundamentals (instalação, configuração, builds)  
-- [ ] Projetos práticos com Docker (multi-stage, networking, volumes, Compose)  
-- [ ] Perguntas de entrevistas sobre Docker  
+- [x] Projetos práticos com Docker (multi-stage, networking, volumes, Compose)  
+- [x] Perguntas de entrevistas sobre Docker  
 - [ ] Kubernetes – introdução e arquitetura  
 - [ ] Kubernetes – pods, deployments, services, ingress, RBAC, ConfigMaps & Secrets  
 - [ ] Projetos práticos com Kubernetes  
