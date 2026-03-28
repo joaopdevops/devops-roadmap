@@ -86,7 +86,7 @@
 ---
 
 ### Fase 10 – Consolidação & Projetos  
-- [ ] Pipelines completos (Jenkins + GitHub Actions)  
+- [x] Pipelines completos (Terraform + GitHub Actions)  
 - [ ] Projetos integrando Docker, Kubernetes, Terraform e segurança  
 - [ ] Documentação dos estudos no GitHub  
 - [ ] Contribuições públicas em repositórios  
