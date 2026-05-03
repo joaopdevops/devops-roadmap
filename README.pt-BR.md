@@ -25,13 +25,12 @@ Estou seguindo um plano estruturado de 6 meses para me tornar DevOps/Cloud Engin
 
 | Fase | Tema | Status |
 |:----:|------|:------:|
-| 01 | Redes (CCNA) | 🔄 Em andamento |
-| 02 | Linux & Shell Scripting | ⏳ Planejado |
-| 03 | Docker | ⏳ Planejado |
-| 04 | Kubernetes (CKA) | ⏳ Planejado |
-| 05 | AWS | ⏳ Planejado |
-| 06 | Terraform | ⏳ Planejado |
-| 07 | CI/CD | ⏳ Planejado |
+| 01 | Redes Fundamentos (CCNA 1) | 🔄 Em andamento |
+| 02 | Redes Avançado (CCNA 2) | ⏳ Planejado |
+| 03 | Linux + Segurança de Redes | ⏳ Planejado |
+| 04 | Docker + AWS Cloud Practitioner | ⏳ Planejado |
+| 05 | Kubernetes + AWS + Terraform | ⏳ Planejado |
+| 06 | CI/CD + DevSecOps | ⏳ Planejado |
 
 ---
 
@@ -39,17 +38,16 @@ Estou seguindo um plano estruturado de 6 meses para me tornar DevOps/Cloud Engin
 
 ```
 devops-roadmap/
-├── fase-01-redes/
+├── fase-01-redes-fundamentos/
 │   ├── labs/               # Labs numerados (objetivo + mecanismo + ponte DevOps)
 │   ├── conceitos/          # Notas atômicas (1 conceito por arquivo) com flashcards
 │   ├── resumos/            # Resumos semanais da fase
 │   └── projeto-integrador/ # Projeto prático ao final da fase
-├── fase-02-linux/
-├── fase-03-docker/
-├── fase-04-kubernetes/
-├── fase-05-aws/
-├── fase-06-terraform/
-└── fase-07-cicd/
+├── fase-02-redes-avancado/
+├── fase-03-linux-seguranca/
+├── fase-04-docker-aws-foundations/
+├── fase-05-k8s-aws-terraform/
+└── fase-06-cicd-devsecops/
 ```
 
 Cada fase segue a mesma organização:

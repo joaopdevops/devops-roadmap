@@ -25,13 +25,12 @@ I am following a structured 6-month plan to transition into DevOps/Cloud Enginee
 
 | Phase | Topic | Status |
 |:-----:|-------|:------:|
-| 01 | Networking (CCNA) | 🔄 In progress |
-| 02 | Linux & Shell Scripting | ⏳ Planned |
-| 03 | Docker | ⏳ Planned |
-| 04 | Kubernetes (CKA) | ⏳ Planned |
-| 05 | AWS | ⏳ Planned |
-| 06 | Terraform | ⏳ Planned |
-| 07 | CI/CD | ⏳ Planned |
+| 01 | Networking Fundamentals (CCNA 1) | 🔄 In progress |
+| 02 | Advanced Networking (CCNA 2) | ⏳ Planned |
+| 03 | Linux + Network Security | ⏳ Planned |
+| 04 | Docker + AWS Cloud Practitioner | ⏳ Planned |
+| 05 | Kubernetes + AWS + Terraform | ⏳ Planned |
+| 06 | CI/CD + DevSecOps | ⏳ Planned |
 
 ---
 
@@ -39,17 +38,16 @@ I am following a structured 6-month plan to transition into DevOps/Cloud Enginee
 
 ```
 devops-roadmap/
-├── fase-01-redes/
+├── fase-01-redes-fundamentos/
 │   ├── labs/               # Numbered labs with mechanism + DevOps bridge
 │   ├── conceitos/          # Atomic notes (1 concept per file) with flashcards
 │   ├── resumos/            # Weekly phase summaries
 │   └── projeto-integrador/ # End-of-phase practical project
-├── fase-02-linux/
-├── fase-03-docker/
-├── fase-04-kubernetes/
-├── fase-05-aws/
-├── fase-06-terraform/
-└── fase-07-cicd/
+├── fase-02-redes-avancado/
+├── fase-03-linux-seguranca/
+├── fase-04-docker-aws-foundations/
+├── fase-05-k8s-aws-terraform/
+└── fase-06-cicd-devsecops/
 ```
 
 Each phase follows the same layout:
