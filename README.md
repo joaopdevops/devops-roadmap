@@ -13,7 +13,7 @@
 
 ## About
 
-I spent 8 years in the Brazilian Army. I enlisted in 2018, took part in the Federal Intervention in Rio de Janeiro, and graduated from the Sergeants' School of Arms (ESA) in 2022. Today I serve as a career Third Sergeant and work in my unit's IT section, managing Linux servers and Zabbix monitoring daily.
+I spent 8 years in the Brazilian Army. I enlisted in 2018, took part in the Federal Intervention in Rio de Janeiro, and graduated from the Sergeants' School of Arms (ESA) in 2022. Today I serve as a career Third Sergeant in my unit's IT section, where I support Linux servers and Zabbix monitoring.
 
 In parallel, I am completing a Computer Networks degree at Estácio University. In 2025 I earned my first certification (Oracle OCI Foundations) and decided to make the transition official with a structured plan.
 
@@ -40,9 +40,10 @@ I am following a structured 6-month plan to transition into DevOps/Cloud Enginee
 ```
 devops-roadmap/
 ├── fase-01-redes/
-│   ├── resumos/            # Markdown notes (Obsidian)
-│   ├── labs/               # Scripts and exercises
-│   └── projeto-integrador/
+│   ├── labs/               # Numbered labs with mechanism + DevOps bridge
+│   ├── conceitos/          # Atomic notes (1 concept per file) with flashcards
+│   ├── resumos/            # Weekly phase summaries
+│   └── projeto-integrador/ # End-of-phase practical project
 ├── fase-02-linux/
 ├── fase-03-docker/
 ├── fase-04-kubernetes/
@@ -52,8 +53,9 @@ devops-roadmap/
 ```
 
 Each phase follows the same layout:
-- `resumos/` — study notes exported from Obsidian
-- `labs/` — hands-on scripts and config files
+- `labs/` — numbered labs (objective, mechanism, examples, DevOps bridge)
+- `conceitos/` — atomic concept notes with flashcards (`Question?::Answer`)
+- `resumos/` — weekly summaries exported from Obsidian
 - `projeto-integrador/` — end-of-phase practical project
 
 ---
@@ -66,7 +68,6 @@ Each phase follows the same layout:
 ![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Zabbix](https://img.shields.io/badge/Zabbix-CC0000?style=flat-square&logoColor=white)
 
 ### Learning (6-month plan)
 
@@ -83,6 +84,8 @@ Each phase follows the same layout:
 | Certification | Status |
 |---|:---:|
 | Oracle Cloud Infrastructure Foundations Associate | ✅ May 2025 |
+| Computer Networks — Centro de Telemática de Área (Brazilian Army) — 40h | ✅ May 2026 |
+| Linux — Centro de Telemática de Área (Brazilian Army) | ✅ May 2026 |
 | CCNA — Cisco Certified Network Associate | 🎯 In progress |
 | CKA — Certified Kubernetes Administrator | 🎯 After CCNA |
 | AWS Solutions Architect Associate | ⏳ After CKA |
@@ -103,7 +106,6 @@ Before starting the structured 6-month plan, I explored several DevOps topics on
 
 | Repository | Description |
 |---|---|
-| [pre_kubernetes](https://github.com/joaopdevops/pre_kubernetes) | Early exploration of Kubernetes concepts before the structured plan |
 | [learning-terraform](https://github.com/joaopdevops/learning-terraform) | First experiments with Terraform and AWS S3 provisioning |
 | [CI-CD](https://github.com/joaopdevops/CI-CD) | Early CI/CD pipeline experiment with Terraform, Docker, and GitHub Actions |
 | [github-actions-simples](https://github.com/joaopdevops/github-actions-simples) | First GitHub Actions CI pipeline with Python and pytest |
