@@ -85,7 +85,7 @@ Each phase follows the same layout:
 |---|:---:|
 | Oracle Cloud Infrastructure Foundations Associate | ✅ May 2025 |
 | Cisco Networking Academy — Introduction to Cybersecurity (via ESCom — Brazilian Army) | ✅ Mar 2026 |
-| Computer Networks — Centro de Telemática de Área (Brazilian Army) — 40h | ✅ Apr 2026 |
+| Computer Networks — Centro de Telemática de Área (Brazilian Army) | ✅ Apr 2026 |
 | Linux — Centro de Telemática de Área (Brazilian Army) | ✅ Apr 2026 |
 | CCNA — Cisco Certified Network Associate | 🎯 In progress |
 | CKA — Certified Kubernetes Administrator | 🎯 After CCNA |
