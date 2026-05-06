@@ -33,4 +33,4 @@ O que acontece se um PC nao tem gateway configurado?::Ele so fala com dispositiv
 Em qual camada OSI o Gateway opera?::Camada 3 (Rede).
 <!--SR:!2026-05-03,3,250-->
 Se PC0 (192.168.1.0/24) quer falar com 192.168.2.x, para onde manda o pacote?::Para o gateway (a interface do roteador na rede do PC0).
-<!--SR:!2026-05-03,3,250-->
+<!--SR:!2026-05-16,11,270-->
