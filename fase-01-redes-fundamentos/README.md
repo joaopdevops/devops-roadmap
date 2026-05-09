@@ -27,7 +27,7 @@ Primeira fase do roadmap. Foco: dominar os fundamentos de redes que sustentam tu
 
 ## Conceitos cobertos até agora
 
-13 notas atômicas: ARP, Gateway, ICMP, LAN, Máscara de Rede, Modelo OSI, Roteador, Switch, Atenuação, Interferência, UTP, Fibra Óptica, Wi-Fi.
+14 notas atômicas: ARP, Gateway, ICMP, LAN, Máscara de Rede, Modelo OSI, Roteador, Switch, Atenuação, Interferência, UTP, Fibra Óptica, Wi-Fi, Subnetting (+ RFC-1918 sobre faixas privadas).
 
 ## Método
 

@@ -49,8 +49,11 @@ Define quantos hosts cabem no bloco. Fórmula: 2^(bits de host) − 2 (desconta 
 | /30 | 2 (enlaces ponto a ponto) |
 
 ## Labs onde foi ensinado
-- [[Mes-01-Redes-Fundamentos/1.1-Redes-no-Mundo-Real]]
-- Aprofundado em: [[Mes-01-Redes-Fundamentos/Indice]] (tópico 2.2 - Subnetting)
+- `1.1-Redes-no-Mundo-Real.md` — primeiro contato (`/24`)
+- `2.1-Enderecamento-IPv4.md` — fórmula `2^h − 2` e tabela CIDR
+
+## Conceito relacionado
+- `Subnetting.md` — o ato de dividir uma rede em sub-redes estendendo a máscara
 
 ---
 
