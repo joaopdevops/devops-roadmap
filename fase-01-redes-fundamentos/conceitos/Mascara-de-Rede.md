@@ -46,14 +46,17 @@ Define quantos hosts cabem no bloco. Fórmula: 2^(bits de host) − 2 (desconta 
 | /24 | 254 |
 | /25 | 126 |
 | /26 | 62 |
+| /29 | 6 (sub-rede pequena, 2-4 hosts + gateway) |
 | /30 | 2 (enlaces ponto a ponto) |
 
 ## Labs onde foi ensinado
 - `1.1-Redes-no-Mundo-Real.md` — primeiro contato (`/24`)
 - `2.1-Enderecamento-IPv4.md` — fórmula `2^h − 2` e tabela CIDR
+- `2.2-Subnetting-Pratico.md` — `/29` aplicado em topologia real (4 sub-redes)
 
 ## Conceito relacionado
 - `Subnetting.md` — o ato de dividir uma rede em sub-redes estendendo a máscara
+- `TTL.md` — prova material de que o pacote atravessou o gateway
 
 ---
 

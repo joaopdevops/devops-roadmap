@@ -13,7 +13,7 @@ Primeira fase do roadmap. Foco: dominar os fundamentos de redes que sustentam tu
 | 1.3 | Modelos OSI e TCP/IP | ✅ |
 | 1.4 | Meios Físicos e Cabos | ✅ |
 | 2.1 | Endereçamento IPv4 e Subnetting | ✅ |
-| 2.2 | Subnetting avançado (cálculo de range) | ⏳ |
+| 2.2 | Subnetting prático (4 sub-redes `/29` no Packet Tracer + IOS CLI) | ✅ |
 | 2.3 | Serviços de Rede (DHCP, DNS, NAT) | ⏳ |
 | 2.4 | ICMP e Fragmentação | ⏳ |
 | 2.5 | Roteamento Básico | ⏳ |
@@ -27,7 +27,7 @@ Primeira fase do roadmap. Foco: dominar os fundamentos de redes que sustentam tu
 
 ## Conceitos cobertos até agora
 
-14 notas atômicas: ARP, Gateway, ICMP, LAN, Máscara de Rede, Modelo OSI, Roteador, Switch, Atenuação, Interferência, UTP, Fibra Óptica, Wi-Fi, Subnetting (+ RFC-1918 sobre faixas privadas).
+15 notas atômicas: ARP, Gateway, ICMP, LAN, Máscara de Rede, Modelo OSI, Roteador, Switch, Atenuação, Interferência, UTP, Fibra Óptica, Wi-Fi, Subnetting, TTL (+ RFC-1918 sobre faixas privadas).
 
 ## Método
 
