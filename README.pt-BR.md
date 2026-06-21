@@ -4,7 +4,7 @@
 
 # Roadmap DevOps — João Pedro Ribeiro
 
-**Sargento do Exército Brasileiro → DevOps/Cloud Engineer (em construção) | Brasil**
+**Sargento do Exército Brasileiro → Redes & Segurança | DevSecOps (em construção) | Brasil**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-ribeiro-37156a361)
 [![GitHub](https://img.shields.io/badge/GitHub-joaopdevops-181717?style=flat-square&logo=github)](https://github.com/joaopdevops)
@@ -13,11 +13,11 @@
 
 ## Sobre
 
-Passei 8 anos no Exército Brasileiro. Ingressei em 2018, participei da Intervenção Federal no Rio de Janeiro e me formei na Escola de Sargentos das Armas (ESA) em 2022. Hoje exerço a função de 3º Sargento de carreira na seção de informática da minha OM, dando suporte a servidores Linux e monitoramento Zabbix.
+Passei 8 anos no Exército Brasileiro. Ingressei em 2018, participei da Intervenção Federal no Rio de Janeiro e me formei na Escola de Sargentos das Armas (ESA) em 2022. Hoje sou 3º Sargento de carreira e apoio a seção de informática da minha OM com a rede do batalhão e servidores Linux — switches, cabeamento, servidores e chamados de suporte.
 
-Em paralelo, curso Redes de Computadores na Estácio (EAD). Em 2025 tirei minha primeira certificação (Oracle OCI Foundations) e decidi tornar a transição oficial com um plano estruturado.
+Em paralelo, curso Redes de Computadores na Estácio (EAD). Fiz estágios técnicos em Linux e Redes no Centro de Telemática de Área (5º CTA, Exército Brasileiro) e estou atualmente matriculado nos cursos de Fundamentos de Redes, Cabeamento de Dados e Logística de TI no Centro de Telemática de Área (1º CTA). Em 2025 tirei minha primeira certificação (Oracle OCI Foundations).
 
-Estou seguindo um plano estruturado de 6 meses para me tornar DevOps/Cloud Engineer, cobrindo Redes (CCNA), Linux, Docker, Kubernetes (CKA), AWS, Terraform e CI/CD. Atualmente estou na fase de Redes, estudando os fundamentos para a certificação CCNA.
+Meu foco é construir uma base sólida em **redes e segurança** — o alicerce de uma carreira em **DevSecOps** — e crescer em automação em cima dela: CCNA, Linux, Docker, Kubernetes, AWS, Terraform e CI/CD. Atualmente estou na fase de Redes, estudando para o CCNA (CCNA 1 e 2 via EsCom).
 
 ---
 
@@ -82,9 +82,13 @@ Cada fase segue a mesma organização:
 | Certificação | Status |
 |---|:---:|
 | Oracle Cloud Infrastructure Foundations Associate | ✅ Mai/2025 |
-| Cisco Networking Academy — Introdução à Cibersegurança (via ESCom — Exército Brasileiro) | ✅ Mar/2026 |
-| Redes de Computadores — Centro de Telemática de Área (Exército Brasileiro) | ✅ Abr/2026 |
-| Linux — Centro de Telemática de Área (Exército Brasileiro) | ✅ Abr/2026 |
+| Introdução à Cibersegurança — Cisco Networking Academy (via EsCom, Exército Brasileiro) | ✅ Mar/2026 |
+| Redes de Computadores — Centro de Telemática de Área, 5º CTA (Exército Brasileiro) | ✅ Abr/2026 |
+| Linux — Centro de Telemática de Área, 5º CTA (Exército Brasileiro) | ✅ Abr/2026 |
+| Fundamentos de Redes (parceria Teltec) — Centro de Telemática de Área, 1º CTA (Exército Brasileiro) | 🎯 Em andamento 2026 |
+| Cabeamento de Redes e Dados — Centro de Telemática de Área, 1º CTA (Exército Brasileiro) | 🎯 Em andamento 2026 |
+| Logística de TI — Centro de Telemática de Área, 1º CTA (Exército Brasileiro) | 🎯 Em andamento 2026 |
+| CCNA 1 e 2 — Cisco Networking Academy (via EsCom, Exército Brasileiro) | 🎯 Em andamento 2026 |
 | CCNA — Cisco Certified Network Associate | 🎯 Em andamento |
 | CKA — Certified Kubernetes Administrator | 🎯 Após CCNA |
 | AWS Solutions Architect Associate | ⏳ Após CKA |
@@ -93,8 +97,8 @@ Cada fase segue a mesma organização:
 
 ## Metas Atuais
 
-- Seguindo um plano estruturado de 6 meses de DevOps/Cloud
-- Candidatura para a **Linux Foundation LiFT Scholarship 2026** — resultado até 30/06/2026
+- Construindo uma base sólida em **redes e segurança**, rumo ao **DevSecOps**
+- Cursando **CCNA 1 e 2** via Escola de Comunicações do Exército (EsCom)
 - Próxima certificação: **CCNA**, seguida da **CKA**
 
 ---

@@ -4,7 +4,7 @@
 
 # DevOps Roadmap — João Pedro Ribeiro
 
-**Brazilian Army Sergeant → DevOps/Cloud Engineer (in progress) | Brazil**
+**Brazilian Army Sergeant → Networking & Security | DevSecOps (in progress) | Brazil**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-ribeiro-37156a361)
 [![GitHub](https://img.shields.io/badge/GitHub-joaopdevops-181717?style=flat-square&logo=github)](https://github.com/joaopdevops)
@@ -13,11 +13,11 @@
 
 ## About
 
-I spent 8 years in the Brazilian Army. I enlisted in 2018, took part in the Federal Intervention in Rio de Janeiro, and graduated from the Sergeants' School of Arms (ESA) in 2022. Today I serve as a career Third Sergeant in my unit's IT section, where I support Linux servers and Zabbix monitoring.
+I spent 8 years in the Brazilian Army. I enlisted in 2018, took part in the Federal Intervention in Rio de Janeiro, and graduated from the Sergeants' School of Arms (ESA) in 2022. Today I'm a career Third Sergeant, and I support my unit's IT section with the battalion's network and Linux servers — switches, cabling, servers, and support tickets.
 
-In parallel, I am completing a Computer Networks degree at Estácio University. In 2025 I earned my first certification (Oracle OCI Foundations) and decided to make the transition official with a structured plan.
+In parallel, I'm completing a Computer Networks degree at Estácio University. I did technical internships in Linux and Networking at the Centro de Telemática de Área (5º CTA, Brazilian Army), and I'm currently enrolled in Network Fundamentals, Data Cabling, and IT Logistics courses at the Centro de Telemática de Área (1º CTA). In 2025 I earned my first certification (Oracle OCI Foundations).
 
-I am following a structured 6-month plan to transition into DevOps/Cloud Engineering, covering Networking (CCNA), Linux, Docker, Kubernetes (CKA), AWS, Terraform, and CI/CD. I am currently in the Networking phase, studying the fundamentals for the CCNA certification.
+My focus is to build a strong foundation in **networking and security** — the base of a **DevSecOps** career — and to grow into automation on top of it: CCNA, Linux, Docker, Kubernetes, AWS, Terraform, and CI/CD. I'm currently in the Networking phase, studying for the CCNA (CCNA 1 & 2 via EsCom).
 
 ---
 
@@ -82,9 +82,13 @@ Each phase follows the same layout:
 | Certification | Status |
 |---|:---:|
 | Oracle Cloud Infrastructure Foundations Associate | ✅ May 2025 |
-| Cisco Networking Academy — Introduction to Cybersecurity (via ESCom — Brazilian Army) | ✅ Mar 2026 |
-| Computer Networks — Centro de Telemática de Área (Brazilian Army) | ✅ Apr 2026 |
-| Linux — Centro de Telemática de Área (Brazilian Army) | ✅ Apr 2026 |
+| Introduction to Cybersecurity — Cisco Networking Academy (via EsCom, Brazilian Army) | ✅ Mar 2026 |
+| Computer Networks — Centro de Telemática de Área, 5º CTA (Brazilian Army) | ✅ Apr 2026 |
+| Linux — Centro de Telemática de Área, 5º CTA (Brazilian Army) | ✅ Apr 2026 |
+| Network Fundamentals (Teltec partnership) — Centro de Telemática de Área, 1º CTA (Brazilian Army) | 🎯 In progress 2026 |
+| Network & Data Cabling — Centro de Telemática de Área, 1º CTA (Brazilian Army) | 🎯 In progress 2026 |
+| IT Logistics for Supported Units — Centro de Telemática de Área, 1º CTA (Brazilian Army) | 🎯 In progress 2026 |
+| CCNA 1 & 2 — Cisco Networking Academy (via EsCom, Brazilian Army) | 🎯 In progress 2026 |
 | CCNA — Cisco Certified Network Associate | 🎯 In progress |
 | CKA — Certified Kubernetes Administrator | 🎯 After CCNA |
 | AWS Solutions Architect Associate | ⏳ After CKA |
@@ -93,8 +97,8 @@ Each phase follows the same layout:
 
 ## Current Goals
 
-- Following a 6-month structured DevOps/Cloud learning plan
-- Applied for the **Linux Foundation LiFT Scholarship 2026** — results by June 30, 2026
+- Building a strong foundation in **networking and security**, toward **DevSecOps**
+- Currently taking **CCNA 1 & 2** via the Army Communications School (EsCom)
 - Next certification target: **CCNA**, followed by **CKA**
 
 ---
