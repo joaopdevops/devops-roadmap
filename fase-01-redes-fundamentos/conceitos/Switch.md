@@ -5,6 +5,8 @@ camada-osi: 2
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Switch.en.md)
+
 # Switch
 
 Opera na **Camada 2** do [[Conceitos/Modelo-OSI]].

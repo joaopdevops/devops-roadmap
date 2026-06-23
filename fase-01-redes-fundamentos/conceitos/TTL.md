@@ -6,6 +6,8 @@ protocolo: IP
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](TTL.en.md)
+
 # TTL (Time To Live)
 
 ## Definição rápida

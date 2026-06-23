@@ -5,6 +5,8 @@ camada-osi: 1
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Atenuacao.en.md)
+
 # Atenuação
 
 Enfraquecimento do sinal à medida que percorre a mídia física. É um fenômeno **interno à mídia** — o próprio meio (cobre, vidro, ar) consome energia do sinal ao longo do caminho.

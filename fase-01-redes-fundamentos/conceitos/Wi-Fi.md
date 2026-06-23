@@ -5,6 +5,8 @@ camada-osi: 1
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Wi-Fi.en.md)
+
 # Wi-Fi
 
 Mídia física sem fio — transmite sinal por **ondas de rádio** usando o ar como meio. "Sem fio" não é "sem Camada 1": o ar é a mídia.

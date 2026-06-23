@@ -5,6 +5,8 @@ camada-osi: 3
 tags: [conceito, flashcards, redes]
 primeira-aparicao: 2026-05-15
 ---
+
+> 🇺🇸 [English version](NAT.en.md)
 nat
 # NAT — Network Address Translation
 

@@ -7,6 +7,8 @@ tags: [conceito, flashcards, redes]
 primeira-aparicao: 2026-05-15
 ---
 
+> 🇺🇸 [English version](DNS.en.md)
+
 
 # DNS — Domain Name System
 

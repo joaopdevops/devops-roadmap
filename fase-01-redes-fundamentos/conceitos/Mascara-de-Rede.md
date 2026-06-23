@@ -5,6 +5,8 @@ camada-osi: 3
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Mascara-de-Rede.en.md)
+
 # Máscara de Rede (Subnet Mask)
 
 Define qual parte do endereço IP é a **rede** e qual é o **dispositivo** (host).

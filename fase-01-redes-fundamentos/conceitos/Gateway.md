@@ -5,6 +5,8 @@ camada-osi: 3
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Gateway.en.md)
+
 # Gateway (Default Gateway)
 
 O **portão de saída** de uma rede. Quando um dispositivo quer se comunicar com outra rede, ele envia o pacote para o gateway.

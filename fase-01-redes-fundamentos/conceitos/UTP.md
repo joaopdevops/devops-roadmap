@@ -5,6 +5,8 @@ camada-osi: 1
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](UTP.en.md)
+
 # UTP — Unshielded Twisted Pair
 
 Cabo de rede mais comum. Transmite sinal por **pulso elétrico no cobre**. Conector: RJ-45.
