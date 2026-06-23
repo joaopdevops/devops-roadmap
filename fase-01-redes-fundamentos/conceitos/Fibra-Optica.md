@@ -5,6 +5,8 @@ camada-osi: 1
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Fibra-Optica.en.md)
+
 # Fibra Óptica
 
 Mídia física que transmite sinal por **pulso de luz** dentro de um núcleo de vidro (ou plástico). Não usa eletricidade.

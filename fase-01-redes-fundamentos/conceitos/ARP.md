@@ -6,6 +6,8 @@ protocolo: ARP
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](ARP.en.md)
+
 # ARP — Address Resolution Protocol
 
 Protocolo que descobre o **endereço MAC** de um dispositivo a partir do seu **endereço IP**.

@@ -4,6 +4,8 @@ area: Redes
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Modelo-OSI.en.md)
+
 # Modelo OSI — Open Systems Interconnection
 
 Modelo de referência com **7 camadas** que descreve como dados viajam pela rede.

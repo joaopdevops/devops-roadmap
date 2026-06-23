@@ -6,6 +6,8 @@ protocolo: ICMP
 tags: [conceito, flashcards, redes]
 primeira-aparicao: 2026-06-10
 ---
+
+> 🇺🇸 [English version](MTU-Fragmentacao.en.md)
 mtu fragmentacao
 # MTU e Fragmentação
 

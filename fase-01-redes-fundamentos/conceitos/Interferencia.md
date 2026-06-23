@@ -5,6 +5,8 @@ camada-osi: 1
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Interferencia.en.md)
+
 # Interferência
 
 Degradação do sinal causada por fonte **externa** à mídia. O meio físico está intacto — o problema é um campo ou sinal externo sobrepondo ruído ao sinal original.

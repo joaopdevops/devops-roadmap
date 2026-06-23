@@ -6,6 +6,8 @@ protocolo: ICMP
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](ICMP.en.md)
+
 # ICMP — Internet Control Message Protocol
 
 Protocolo usado para **testar conectividade**. Não transfere dados — só verifica se o caminho está aberto.

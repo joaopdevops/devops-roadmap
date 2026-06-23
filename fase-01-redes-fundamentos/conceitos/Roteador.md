@@ -5,6 +5,8 @@ camada-osi: 3
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](Roteador.en.md)
+
 # Roteador
 
 Opera na **Camada 3** do [[Conceitos/Modelo-OSI]].

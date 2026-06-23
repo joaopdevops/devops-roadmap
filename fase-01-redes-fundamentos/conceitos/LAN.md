@@ -5,6 +5,8 @@ camada-osi: 2
 tags: [conceito, flashcards, redes]
 ---
 
+> 🇺🇸 [English version](LAN.en.md)
+
 # LAN — Local Area Network
 
 Rede local onde dispositivos se comunicam **diretamente**, sem precisar de [[Conceitos/Roteador]].
