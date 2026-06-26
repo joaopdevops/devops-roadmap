@@ -5,8 +5,6 @@ camada-osi: 2
 tags: [conceito, flashcards, redes]
 ---
 
-> 🇺🇸 [English version](LAN.en.md)
-
 # LAN — Local Area Network
 
 Rede local onde dispositivos se comunicam **diretamente**, sem precisar de [[Conceitos/Roteador]].
@@ -25,13 +23,27 @@ A comunicação dentro de uma LAN é gerenciada pelo [[Conceitos/Switch]] (Camad
 
 ---
 
+## 🇺🇸 English
+
+A local network where devices communicate **directly**, without needing a **router**.
+
+All devices share the same **subnet mask** — that is, they are in the same "building".
+
+Communication inside a LAN is handled by the **switch** (Layer 2).
+
+**Examples:**
+- Home network
+- Office network
+- Docker virtual network (docker0)
+
+## Where it was taught
+- Lab 1.1 — Networking in the real world
+
+---
+
 ## Flashcards
 
-O que e uma LAN?::Local Area Network — rede local onde dispositivos se comunicam diretamente, sem roteador.
-<!--SR:!2026-05-03,2,230-->
-O que define que dois dispositivos estao na mesma LAN?::Ter a mesma mascara de rede (mesmo "predio").
-<!--SR:!2026-05-02,2,230-->
-Quem gerencia a comunicacao dentro de uma LAN?::O switch (Camada 2).
-<!--SR:!2026-05-04,4,270-->
-A rede docker0 e uma LAN?::Sim — e uma LAN virtual criada pelo Docker.
-<!--SR:!2026-05-02,2,230-->
+O que e uma LAN?::Local Area Network — a local network where devices communicate directly, without a router.
+O que define que dois dispositivos estao na mesma LAN?::Having the same subnet mask (the same "building").
+Quem gerencia a comunicacao dentro de uma LAN?::The switch (Layer 2).
+A rede docker0 e uma LAN?::Yes — it is a virtual LAN created by Docker.

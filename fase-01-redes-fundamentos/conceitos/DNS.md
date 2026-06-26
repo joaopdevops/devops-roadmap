@@ -7,9 +7,6 @@ tags: [conceito, flashcards, redes]
 primeira-aparicao: 2026-05-15
 ---
 
-> 🇺🇸 [English version](DNS.en.md)
-
-
 # DNS — Domain Name System
 
 ## Definição rápida
@@ -94,21 +91,105 @@ Internet vira **lista de IPs decorados**. Você teria que digitar `142.250.78.78
 
 ---
 
+## 🇺🇸 English
+
+## Quick definition
+
+A system that **translates a domain name into an IP**. You think of `google.com`, the computer needs `142.250.78.78`. DNS does the translation.
+
+## Analogy
+
+**Your phone's contact list.** You call "Mom", you do not dial "+55 41 98765-4321". Your phone checks the contacts, translates "Mom" into the number and dials. You think in **names**, the phone dials in **numbers**.
+
+DNS is the contact list of the whole internet: you think in names (`google.com`, `youtube.com`, `github.com`), the computer needs IPs to send packets.
+
+## How it works — a worldwide hierarchy
+
+No single DNS server knows ALL the IPs in the world. The query walks a hierarchy:
+
+1. **You type `www.google.com`** in the browser.
+2. The computer asks the **local DNS** (usually the ISP's or Google's `8.8.8.8`): "what is the IP of `www.google.com`?"
+3. The local DNS does not know → asks a **root server**: "who handles `.com`?"
+4. The root server answers: "talk to the `.com` TLD servers".
+5. The local DNS asks the **`.com` servers**: "who handles `google.com`?"
+6. Answer: "talk to `google.com`'s authoritative servers".
+7. The local DNS asks **Google's authoritative servers**: "what is the IP of `www.google.com`?"
+8. Answer: `142.250.78.78`.
+9. The local DNS returns that IP to your computer.
+
+**All in fractions of a second.** And with **caching everywhere** (client, local DNS, intermediate servers) so it does not redo the whole trip every time.
+
+## TTL in DNS — same word, different context
+
+Each DNS answer comes with a **TTL** (the record's cache lifetime). Different from the IP packet TTL you already saw (Lab 2.2):
+
+| TTL in IP (packet) | TTL in DNS (record) |
+|---|---|
+| Counts **hops** (decremented per router) | Counts **seconds** in cache |
+| Kills a packet in a loop | Defines when to re-ask for the record |
+| Stamped by the source OS (64 or 128) | Set by the domain owner (e.g. 300s) |
+
+**Same name, cousin concepts:** both are an "expiration date", but they measure different things. The router handles the packet's TTL; the DNS cache handles the record's TTL.
+
+## Record types — the basics
+
+| Record | What it does                  | Example                              |
+| ------ | ----------------------------- | ------------------------------------ |
+| **A**  | Name → IPv4                   | `google.com` → `142.250.78.78`       |
+| AAAA   | Name → IPv6                   | `google.com` → `2607:f8b0::4004:80a` |
+| CNAME  | Alias → another name          | `www.example.com` → `example.com`    |
+| MX     | The domain's mail server      | (sends email to `gmail.com`)         |
+| NS     | Who the authoritative server is | (delegates the domain's authority) |
+
+**In Lab 2.3 you only touch the `A` record.** The others come as the course advances.
+
+## Where it shows up in your life
+
+- Every time you type an address in the browser, **before** the page opens, a DNS lookup is happening.
+- `nslookup google.com` in the terminal = a direct question to DNS, returns the IP.
+- `dig google.com` = a more detailed version.
+- `/etc/resolv.conf` on Linux = the file that says which DNS server to use (usually delivered by DHCP).
+
+## Without DNS — what it would be like
+
+The internet becomes a **list of memorized IPs**. You would have to type `142.250.78.78` instead of `google.com`. Each service, each site, a different number to remember. Unworkable.
+
+## Why it matters for DevOps
+
+- **Service Discovery** in Kubernetes/Docker is DNS: the `frontend` container finds the `backend` by the name `backend.namespace.svc.cluster.local`.
+- **AWS Route 53** is a managed DNS service.
+- **Internal resolution in a VPC** (an EC2 instance finds another by hostname) uses DNS.
+- **Production debugging:** 50% of "site is down" incidents are broken DNS, not the application.
+
+> "**It's always DNS.**" — a true meme from the SRE/DevOps world.
+
+## Where it was taught
+
+- Lab 2.3 — Network Services
+
+## Related
+
+- DHCP — delivers the DNS server IP for the client to use
+- TTL — same word, different context (IP packet vs DNS cache)
+- NAT — DNS resolves an external host name; NAT lets the packet go out to reach it
+
+---
+
 ## Flashcards
 
-O que e DNS?::Sistema que traduz nome de dominio (google.com) em IP (142.250.78.78).
-Por que DNS existe?::Para humanos pensarem em nomes e maquinas usarem numeros — sem DNS a internet seria lista de IPs decorados.
-Em qual camada OSI o DNS atua?::Camada 7 (Aplicacao) — roda principalmente sobre UDP na porta 53.
-O que e um servidor DNS recursivo?::Servidor que faz a viagem inteira pela hierarquia (raiz, TLD, autoritativo) e devolve o IP final pro cliente.
-O que e cache DNS?::Memoria temporaria de respostas recentes, para nao refazer a hierarquia toda vez. Tem TTL — depois do prazo, re-pergunta.
-Qual a diferenca entre TTL do pacote IP e TTL do DNS?::TTL do IP conta saltos por roteador (mata pacote em loop). TTL do DNS conta segundos em cache (define quando re-perguntar pelo registro).
-Quem define o TTL de um registro DNS?::O dono do dominio, ao configurar o registro no servidor autoritativo.
-O que e um registro tipo A?::Mapeamento direto de nome para endereco IPv4. Ex: google.com -> 142.250.78.78.
-O que e um registro CNAME?::Apelido — aponta um nome para outro nome. Ex: www.exemplo.com -> exemplo.com.
-O que e o servidor 8.8.8.8?::DNS publico do Google — um dos mais usados como recursivo.
-Onde fica configurado o servidor DNS no Linux?::No arquivo /etc/resolv.conf — geralmente entregue automaticamente pelo DHCP.
-Por que o ditado "It's always DNS" existe no DevOps?::Porque grande parte dos incidentes de "site fora do ar" sao causados por problema de DNS, nao pela aplicacao em si.
-Na sua casa, quem e o servidor DNS de verdade?::O DNS do provedor (ou um publico como 8.8.8.8). O roteador domestico nao e a agenda — so repassa a pergunta (forwarder/relay).
-Onde existe um servidor DNS dedicado na pratica?::Redes corporativas (Windows Server/AD com nomes internos .local), cloud (AWS Route 53) e Kubernetes (CoreDNS). Casa nao tem — usa o do provedor.
-Que comando testa a resolucao de um nome no terminal?::nslookup seguido do nome (ex: nslookup www.lab.local) — pergunta direto ao servidor DNS e mostra o IP retornado.
-Ao configurar um servidor DNS, o que e adicionar um registro A?::Cadastrar um contato na agenda: ligar um nome (www.lab.local) a um IPv4 (192.168.10.10).
+O que e DNS?::A system that translates a domain name (google.com) into an IP (142.250.78.78).
+Por que DNS existe?::So humans think in names and machines use numbers — without DNS the internet would be a list of memorized IPs.
+Em qual camada OSI o DNS atua?::Layer 7 (Application) — it runs mostly over UDP on port 53.
+O que e um servidor DNS recursivo?::A server that walks the whole hierarchy (root, TLD, authoritative) and returns the final IP to the client.
+O que e cache DNS?::Temporary memory of recent answers, to avoid redoing the whole hierarchy every time. It has a TTL — after the deadline, it re-asks.
+Qual a diferenca entre TTL do pacote IP e TTL do DNS?::The IP TTL counts hops per router (kills a packet in a loop). The DNS TTL counts seconds in cache (defines when to re-ask for the record).
+Quem define o TTL de um registro DNS?::The domain owner, when configuring the record on the authoritative server.
+O que e um registro tipo A?::A direct mapping of a name to an IPv4 address. E.g. google.com -> 142.250.78.78.
+O que e um registro CNAME?::An alias — points one name to another name. E.g. www.example.com -> example.com.
+O que e o servidor 8.8.8.8?::Google's public DNS — one of the most used recursive resolvers.
+Onde fica configurado o servidor DNS no Linux?::In the /etc/resolv.conf file — usually delivered automatically by DHCP.
+Por que o ditado "It's always DNS" existe no DevOps?::Because a large share of "site is down" incidents are caused by a DNS problem, not the application itself.
+Na sua casa, quem e o servidor DNS de verdade?::The ISP's DNS (or a public one like 8.8.8.8). The home router is not the contact list — it just forwards the question (forwarder/relay).
+Onde existe um servidor DNS dedicado na pratica?::Corporate networks (Windows Server/AD with internal .local names), cloud (AWS Route 53) and Kubernetes (CoreDNS). Homes do not have one — they use the ISP's.
+Que comando testa a resolucao de um nome no terminal?::nslookup followed by the name (e.g. nslookup www.lab.local) — asks the DNS server directly and shows the returned IP.
+Ao configurar um servidor DNS, o que e adicionar um registro A?::Adding a contact to the address book: linking a name (www.lab.local) to an IPv4 (192.168.10.10).

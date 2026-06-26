@@ -6,8 +6,6 @@ protocolo: ARP
 tags: [conceito, flashcards, redes]
 ---
 
-> 🇺🇸 [English version](ARP.en.md)
-
 # ARP — Address Resolution Protocol
 
 Protocolo que descobre o **endereço MAC** de um dispositivo a partir do seu **endereço IP**.
@@ -27,13 +25,28 @@ Porque o ARP ainda está descobrindo o MAC. Na segunda tentativa, o MAC já est�
 
 ---
 
+## 🇺🇸 English
+
+A protocol that discovers a device's **MAC address** from its **IP address**.
+
+Before sending a packet, the device needs to know the destination's MAC. ARP solves this:
+
+1. Broadcast on the network: *"Who has IP 192.168.1.2? Tell me your MAC!"*
+2. The owner of that IP replies with its MAC.
+3. The sender saves it in the **ARP table** (cache) so it does not have to ask again.
+
+**Why does the first ping drop 1 packet?**
+Because ARP is still discovering the MAC. On the second attempt, the MAC is already cached → 0% loss.
+
+## Where it was taught
+- Lab 1.2 — Network components
+- Will show up a lot in network troubleshooting
+
+---
+
 ## Flashcards
 
-O que o ARP descobre?::O endereco MAC de um dispositivo a partir do seu IP.
-<!--SR:!2026-05-03,2,210-->
-Em qual camada OSI o ARP opera?::Camada 2 (Enlace).
-<!--SR:!2026-05-03,3,250-->
-Por que o primeiro ping perde 1 pacote?::Porque o ARP esta descobrindo o MAC do destino. No segundo ping, o MAC ja esta em cache.
-<!--SR:!2026-05-02,1,170-->
-ARP faz parte do ping?::Nao. ARP roda ANTES do ping. O ping em si e so ICMP.
-<!--SR:!2026-05-03,3,250-->
+O que o ARP descobre?::A device's MAC address from its IP.
+Em qual camada OSI o ARP opera?::Layer 2 (Data Link).
+Por que o primeiro ping perde 1 pacote?::Because ARP is discovering the destination's MAC. On the second ping, the MAC is already cached.
+ARP faz parte do ping?::No. ARP runs BEFORE the ping. The ping itself is just ICMP.

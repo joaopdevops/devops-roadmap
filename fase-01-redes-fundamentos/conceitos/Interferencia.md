@@ -5,8 +5,6 @@ camada-osi: 1
 tags: [conceito, flashcards, redes]
 ---
 
-> 🇺🇸 [English version](Interferencia.en.md)
-
 # Interferência
 
 Degradação do sinal causada por fonte **externa** à mídia. O meio físico está intacto — o problema é um campo ou sinal externo sobrepondo ruído ao sinal original.
@@ -49,17 +47,53 @@ Sem torção, o cobre seria uma antena captando EMI de tudo ao redor.
 
 ---
 
+## 🇺🇸 English
+
+Signal degradation caused by a source **external** to the medium. The physical medium is intact — the problem is an external field or signal adding noise on top of the original.
+
+Fundamental difference from Attenuation:
+
+| | Origin | Physical medium |
+|---|---|---|
+| Attenuation | internal to the medium | intact |
+| Interference | external to the medium | intact |
+| Physical break | — | damaged/cut |
+
+A cable cut by a truck = a physical break, not interference.
+
+## Types
+
+**EMI — Electromagnetic Interference**
+The electromagnetic field of nearby electrical devices induces noise in the copper.
+Classic sources (CCNA): an electric motor, a fluorescent lamp, a power cable running parallel to the UTP.
+
+**RFI — Radio Frequency Interference**
+An external radio signal in the same spectrum.
+Sources: another Wi-Fi on the same channel, a microwave oven (operates at 2.4 GHz — same spectrum as 2.4 Wi-Fi), TV antennas, a nearby AM/FM radio.
+
+## How UTP protects itself
+
+The pairs are **twisted** — the twist makes the electromagnetic fields induced in each wire cancel each other out. Hence the name: Unshielded **Twisted** Pair.
+
+Without the twist, copper would be an antenna picking up EMI from everything around it.
+
+## Where it was taught
+
+- Lab 1.4 — Physical media and cabling
+
+## Related
+
+- Attenuation — do not confuse: internal vs external
+- UTP — the twist as protection against EMI
+- Wi-Fi — RFI between Wi-Fi networks on the same channel
+
+---
+
 ## Flashcards
 
-O que e interferencia em redes?::Degradacao do sinal por fonte externa a midia. O meio fisico esta intacto.
-<!--SR:!2026-05-02,1,228-->
-Qual a diferenca entre atenuacao e interferencia?::Atenuacao = interno a midia (sinal enfraquece sozinho). Interferencia = externo (campo ou sinal de fora bagunca o sinal).
-<!--SR:!2026-05-04,3,268-->
-Cabo cortado por caminhao e interferencia?::Nao. E ruptura fisica. Interferencia pressupoe que o meio fisico esta intacto.
-<!--SR:!2026-05-03,2,248-->
-O que e EMI?::Electromagnetic Interference — campo eletromagnetico de dispositivos eletricos (motor, fluorescente, cabo de energia) induzindo ruido no cobre.
-<!--SR:!2026-05-03,2,248-->
-Por que o UTP e trancado?::A torcao dos pares faz os campos eletromagneticos induzidos se cancelarem — protecao contra EMI.
-<!--SR:!2026-05-02,1,210-->
-Por que microondas interfere no Wi-Fi 2.4 GHz?::Microondas opera na mesma frequencia (2.4 GHz) — e RFI direta no mesmo espectro.
-<!--SR:!2026-05-03,2,248-->
+O que e interferencia em redes?::Signal degradation by a source external to the medium. The physical medium is intact.
+Qual a diferenca entre atenuacao e interferencia?::Attenuation = internal to the medium (signal weakens on its own). Interference = external (a field or signal from outside disrupts the signal).
+Cabo cortado por caminhao e interferencia?::No. It is a physical break. Interference assumes the physical medium is intact.
+O que e EMI?::Electromagnetic Interference — the electromagnetic field of electrical devices (motor, fluorescent lamp, power cable) inducing noise in the copper.
+Por que o UTP e trancado?::The twist of the pairs makes the induced electromagnetic fields cancel out — protection against EMI.
+Por que microondas interfere no Wi-Fi 2.4 GHz?::The microwave operates at the same frequency (2.4 GHz) — direct RFI in the same spectrum.
