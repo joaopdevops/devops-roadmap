@@ -5,8 +5,6 @@ camada-osi: 1
 tags: [conceito, flashcards, redes]
 ---
 
-> 🇺🇸 [English version](Fibra-Optica.en.md)
-
 # Fibra Óptica
 
 Mídia física que transmite sinal por **pulso de luz** dentro de um núcleo de vidro (ou plástico). Não usa eletricidade.
@@ -42,11 +40,46 @@ Não conduz eletricidade → campo eletromagnético externo não induz ruído. P
 
 ---
 
+## 🇺🇸 English
+
+A physical medium that transmits the signal as a **pulse of light** inside a glass (or plastic) core. It does not use electricity.
+
+The thin black cable that enters your home from the pole = the ISP's optical fiber.
+
+## Why it reaches tens of kilometers
+
+The attenuation of light in pure glass is hundreds of times lower than the attenuation of the electrical pulse in copper. The signal travels tens of km before needing amplification.
+
+- **UTP:** 100 m without a repeater
+- **Single-mode fiber:** tens of km without an amplifier
+
+## Speed of light in glass
+
+~200,000 km/s (two hundred thousand kilometers per **second**, not per hour).
+
+Practical consequence: **São Paulo → Virginia ≈ 120 ms** because it is ~10,000 km of undersea fiber. It is not software slowness — it is the physical limit of the speed of light. No code optimization changes that.
+
+## Immune to EMI
+
+It does not conduct electricity → an external electromagnetic field cannot induce noise. It can run next to an electric motor without a problem. See: Interference.
+
+## Where it was taught
+
+- Lab 1.4 — Physical media and cabling
+
+## Related
+
+- Attenuation — very low attenuation is what allows long distance
+- UTP — comparison: copper vs glass, 100 m vs tens of km
+- Interference — immune to EMI because it does not conduct electricity
+
+---
+
 ## Flashcards
 
-O que a fibra optica transmite?::Pulso de luz dentro de vidro. Nao usa eletricidade.
-Por que fibra alcanca dezenas de km e UTP so 100m?::A atenuacao da luz no vidro e centenas de vezes menor que a atenuacao do pulso eletrico no cobre.
-Qual a velocidade da luz no vidro?::~200.000 km/s (duzentos mil quilometros por segundo).
-Por que a latencia SP-Virginia e ~120ms mesmo com fibra?::Sao ~10.000 km de fibra submarina. A velocidade da luz no vidro tem limite fisico — nao e bug de software.
-Por que fibra e imune a EMI?::Nao conduz eletricidade — campo eletromagnetico externo nao tem como induzir ruido no sinal de luz.
-O cabo fino preto que entra na sua casa da operadora e o que?::Fibra optica — transmite luz, nao eletricidade.
+O que a fibra optica transmite?::A pulse of light inside glass. It does not use electricity.
+Por que fibra alcanca dezenas de km e UTP so 100m?::The attenuation of light in glass is hundreds of times lower than the attenuation of the electrical pulse in copper.
+Qual a velocidade da luz no vidro?::~200,000 km/s (two hundred thousand kilometers per second).
+Por que a latencia SP-Virginia e ~120ms mesmo com fibra?::It is ~10,000 km of undersea fiber. The speed of light in glass has a physical limit — it is not a software bug.
+Por que fibra e imune a EMI?::It does not conduct electricity — an external electromagnetic field has no way to induce noise into the light signal.
+O cabo fino preto que entra na sua casa da operadora e o que?::Optical fiber — it transmits light, not electricity.

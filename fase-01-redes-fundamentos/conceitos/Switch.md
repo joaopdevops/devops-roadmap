@@ -5,8 +5,6 @@ camada-osi: 2
 tags: [conceito, flashcards, redes]
 ---
 
-> 🇺🇸 [English version](Switch.en.md)
-
 # Switch
 
 Opera na **Camada 2** do [[Conceitos/Modelo-OSI]].
@@ -24,13 +22,26 @@ Aprende os endereços MAC dos dispositivos e entrega pacotes diretamente ao dest
 
 ---
 
+## 🇺🇸 English
+
+Operates at **Layer 2** of the OSI model.
+
+Connects devices within the **same network** (LAN).
+It learns the devices' MAC addresses and delivers packets straight to the destination — without passing through everyone.
+
+**Analogy:** the building's mailman. Takes the letter and delivers it to the right apartment, without leaving the building.
+
+**Difference from the router:** a switch does not connect different networks. It only works within a local network.
+
+## Where it was taught
+- Lab 1.1 — Networking in the real world
+- Lab 1.2 — Network components
+
+---
+
 ## Flashcards
 
-Em qual camada OSI o Switch opera?::Camada 2 (Enlace).
-<!--SR:!2026-05-03,3,268-->
-O que o switch aprende?::Os enderecos MAC dos dispositivos, para entregar pacotes direto ao destino.
-<!--SR:!2026-05-03,2,190-->
-Qual a diferenca entre switch e roteador?::O switch so opera dentro de uma rede. Nao conecta redes diferentes.
-<!--SR:!2026-05-03,3,268-->
-Analogia do switch?::Carteiro do predio — entrega a carta no apartamento certo sem sair do predio.
-<!--SR:!2026-05-02,2,228-->
+Em qual camada OSI o Switch opera?::Layer 2 (Data Link).
+O que o switch aprende?::The devices' MAC addresses, to deliver packets straight to the destination.
+Qual a diferenca entre switch e roteador?::A switch only works within one network. It does not connect different networks.
+Analogia do switch?::The building's mailman — delivers the letter to the right apartment without leaving the building.

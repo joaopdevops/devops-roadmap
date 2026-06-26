@@ -5,8 +5,6 @@ camada-osi: 3
 tags: [conceito, flashcards, redes]
 ---
 
-> 🇺🇸 [English version](Roteador.en.md)
-
 # Roteador
 
 Opera na **Camada 3** do [[Conceitos/Modelo-OSI]].
@@ -25,13 +23,27 @@ Cada interface do roteador pertence a uma rede diferente e atua como [[Conceitos
 
 ---
 
+## 🇺🇸 English
+
+Operates at **Layer 3** of the OSI model.
+
+Connects **different networks**. It receives packets and decides which path to take based on the destination IP address.
+
+**Analogy:** the post office. It links one building to another — it knows the path between neighborhoods.
+
+**Difference from the switch:** the switch works within one network. The router works between networks.
+
+Each router interface belongs to a different network and acts as the **gateway** for the devices on that network.
+
+## Where it was taught
+- Lab 1.2 — Network components
+- Will be essential in: Docker networking, AWS VPC, Kubernetes
+
+---
+
 ## Flashcards
 
-O que o roteador faz?::Conecta redes diferentes. Opera na Camada 3.
-<!--SR:!2026-05-03,3,268-->
-Qual a diferenca entre switch e roteador?::Switch opera DENTRO de uma rede (Camada 2). Roteador conecta redes DIFERENTES (Camada 3).
-<!--SR:!2026-05-02,1,208-->
-Cada interface de um roteador pertence a que?::Uma rede diferente. E atua como Gateway dos dispositivos daquela rede.
-<!--SR:!2026-05-02,1,170-->
-Analogia do roteador?::Agencia dos Correios — liga um predio ao outro.
-<!--SR:!2026-05-02,2,248-->
+O que o roteador faz?::Connects different networks. Operates at Layer 3.
+Qual a diferenca entre switch e roteador?::A switch works WITHIN a network (Layer 2). A router connects DIFFERENT networks (Layer 3).
+Cada interface de um roteador pertence a que?::A different network. And it acts as the gateway for the devices on that network.
+Analogia do roteador?::The post office — links one building to another.

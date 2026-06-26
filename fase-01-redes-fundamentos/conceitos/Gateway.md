@@ -5,8 +5,6 @@ camada-osi: 3
 tags: [conceito, flashcards, redes]
 ---
 
-> 🇺🇸 [English version](Gateway.en.md)
-
 # Gateway (Default Gateway)
 
 O **portão de saída** de uma rede. Quando um dispositivo quer se comunicar com outra rede, ele envia o pacote para o gateway.
@@ -26,13 +24,28 @@ O gateway é geralmente a interface do [[Conceitos/Roteador]] dentro daquela red
 
 ---
 
+## 🇺🇸 English
+
+The **exit gate** of a network. When a device wants to communicate with another network, it sends the packet to the gateway.
+
+The gateway is usually the **router** interface inside that network.
+
+**Without a configured gateway:** the device does not know how to leave its local network. It can only communicate with devices on the same LAN.
+
+**Example:**
+- PC0 is on network 192.168.1.0/24
+- PC0's gateway: 192.168.1.254 (router interface)
+- To talk to 192.168.2.x, PC0 sends the packet to 192.168.1.254
+
+## Where it was taught
+- Lab 1.2 — Network components
+- Essential for: AWS VPC, Docker networking, Kubernetes
+
+---
+
 ## Flashcards
 
-O que e Default Gateway?::O portao de saida de uma rede. Geralmente o IP da interface do roteador dentro daquela rede.
-<!--SR:!2026-05-02,2,210-->
-O que acontece se um PC nao tem gateway configurado?::Ele so fala com dispositivos da mesma LAN. Nao sai para outras redes.
-<!--SR:!2026-05-03,3,250-->
-Em qual camada OSI o Gateway opera?::Camada 3 (Rede).
-<!--SR:!2026-05-03,3,250-->
-Se PC0 (192.168.1.0/24) quer falar com 192.168.2.x, para onde manda o pacote?::Para o gateway (a interface do roteador na rede do PC0).
-<!--SR:!2026-05-16,11,270-->
+O que e Default Gateway?::The exit gate of a network. Usually the IP of the router interface within that network.
+O que acontece se um PC nao tem gateway configurado?::It only talks to devices on the same LAN. It cannot reach other networks.
+Em qual camada OSI o Gateway opera?::Layer 3 (Network).
+Se PC0 (192.168.1.0/24) quer falar com 192.168.2.x, para onde manda o pacote?::To the gateway (the router interface on PC0's network).

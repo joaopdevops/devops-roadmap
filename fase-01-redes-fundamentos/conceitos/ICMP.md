@@ -6,8 +6,6 @@ protocolo: ICMP
 tags: [conceito, flashcards, redes]
 ---
 
-> 🇺🇸 [English version](ICMP.en.md)
-
 # ICMP — Internet Control Message Protocol
 
 Protocolo usado para **testar conectividade**. Não transfere dados — só verifica se o caminho está aberto.
@@ -31,15 +29,33 @@ ping -c 4 192.168.1.2   # envia 4 pacotes e para
 
 ---
 
+## 🇺🇸 English
+
+A protocol used to **test connectivity**. It does not transfer data — it only checks whether the path is open.
+
+Used by the `ping` command.
+
+**How it works:**
+- **Echo Request:** "hey, are you there?"
+- **Echo Reply:** "yes, I am!"
+- **0% packet loss** = perfect communication
+
+**On Linux:**
+```bash
+ping 192.168.1.2        # continuous ping
+ping -c 4 192.168.1.2   # send 4 packets and stop
+```
+
+## Where it was taught
+- Lab 1.1 — Networking in the real world
+- Lab 1.2 — Network components
+
+---
+
 ## Flashcards
 
-Para que serve o ICMP?::Testar conectividade. Nao transfere dados, so verifica se o caminho esta aberto.
-<!--SR:!2026-05-02,2,210-->
+Para que serve o ICMP?::Testing connectivity. It does not transfer data, only checks whether the path is open.
 Qual comando usa ICMP?::ping.
-<!--SR:!2026-05-03,3,268-->
-Echo Request vs Echo Reply?::Request = "voce esta ai?"; Reply = "estou sim!".
-<!--SR:!2026-05-02,2,228-->
-O que significa 0% packet loss?::Todos os pacotes enviados foram respondidos — comunicacao perfeita.
-<!--SR:!2026-05-03,3,268-->
-Em qual camada OSI o ICMP opera?::Camada 3 (Rede).
-<!--SR:!2026-05-02,2,228-->
+Echo Request vs Echo Reply?::Request = "are you there?"; Reply = "yes, I am!".
+O que significa 0% packet loss?::Every packet sent was answered — perfect communication.
+Em qual camada OSI o ICMP opera?::Layer 3 (Network).
