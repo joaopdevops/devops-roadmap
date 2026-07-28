@@ -43,3 +43,14 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-06-11 | 29 | Drill — /29 |
 | 2026-06-15 | 30 | MTU — conceptual recovery |
 | 2026-06-22 | 31 | Subnetting drills + flashcards |
+| 2026-06-25 | 32 | Bilingual concept notes (single-note refactor) |
+| 2026-06-26 | 33 | Lab 2.4 — fragmentation with tcpdump |
+| 2026-06-27 | 34 | Retest 24h — Lab 2.4 |
+| 2026-06-28 | 35 | Lab 2.5 opens — routing table, longest prefix match |
+| 2026-06-30 | 36 | Addressing plan — two /24 networks + /30 link |
+| 2026-07-01 | 37 | Lab 2.4 closed — retest 72h (2/2) |
+| 2026-07-02 | 38 | Drill /28 + retrieval-first protocol |
+| 2026-07-03 | 39 | Micro-lab `ip route get` + prefix matching |
+| 2026-07-04 | 40 | Routing table consolidation + flashcards |
+| 2026-07-06 | 41 | Interview prep — STAR stories in English |
+| 2026-07-27 | 42 | **Lab 2.5 — static routing R1↔R2 (operational)** |
