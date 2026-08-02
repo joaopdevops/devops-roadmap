@@ -33,7 +33,7 @@ Primeira fase do roadmap. Foco: dominar os fundamentos de redes que sustentam tu
 
 - 1 lab por dia útil
 - Cada conceito novo vira nota atômica em `conceitos/`
-- Cada lab termina com **ponte para DevOps** (datacenter, cloud, K8s, AWS)
+- Cada lab termina com **ponte com o mundo real** (rede corporativa, cloud, K8s, AWS)
 - Critério de avanço: confiança 3 + reteste 24h + reteste 72h surpresa
 
 ## Ferramentas
