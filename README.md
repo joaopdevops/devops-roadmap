@@ -2,9 +2,9 @@
   <a href="README.pt-BR.md">🇧🇷 Leia em Português</a>
 </div>
 
-# Network Infrastructure Roadmap — João Pedro Ribeiro
+# Networking & Security → DevSecOps Roadmap — João Pedro Ribeiro
 
-**Brazilian Army Sergeant → Network Infrastructure & Security | Brazil**
+**Brazilian Army Sergeant → Network Infrastructure & Security | DevSecOps (in progress) | Brazil**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-ribeiro-37156a361)
 [![GitHub](https://img.shields.io/badge/GitHub-joaopdevops-181717?style=flat-square&logo=github)](https://github.com/joaopdevops)
@@ -111,6 +111,7 @@ Each phase follows the same layout:
 - Turn every phase into something hands-on: topologies, diagrams, and documented configurations
 - Get sharper at **network troubleshooting** — reading the symptom before touching the config
 - Practice **explaining technical work in English**, since documentation and communication are half the job
+- Grow into **DevSecOps** — automation and security built on top of that foundation, not instead of it
 
 ---
 

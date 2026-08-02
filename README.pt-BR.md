@@ -2,9 +2,9 @@
   <a href="README.md">🇺🇸 Read in English</a>
 </div>
 
-# Roadmap de Infraestrutura de Redes — João Pedro Ribeiro
+# Roadmap Redes & Segurança → DevSecOps — João Pedro Ribeiro
 
-**Sargento do Exército Brasileiro → Infraestrutura de Redes & Segurança | Brasil**
+**Sargento do Exército Brasileiro → Infraestrutura de Redes & Segurança | DevSecOps (em construção) | Brasil**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-ribeiro-37156a361)
 [![GitHub](https://img.shields.io/badge/GitHub-joaopdevops-181717?style=flat-square&logo=github)](https://github.com/joaopdevops)
@@ -111,6 +111,7 @@ Cada fase segue a mesma organização:
 - Transformar cada fase em algo prático: topologias, diagramas e configurações documentadas
 - Ficar mais afiado em **troubleshooting de rede** — ler o sintoma antes de mexer na configuração
 - Treinar **explicar trabalho técnico em inglês**, porque documentação e comunicação são metade do serviço
+- Crescer rumo ao **DevSecOps** — automação e segurança construídas em cima dessa base, não no lugar dela
 
 ---
 
