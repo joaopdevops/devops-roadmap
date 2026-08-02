@@ -52,5 +52,5 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-07-02 | 38 | Drill /28 + retrieval-first protocol |
 | 2026-07-03 | 39 | Micro-lab `ip route get` + prefix matching |
 | 2026-07-04 | 40 | Routing table consolidation + flashcards |
-| 2026-07-06 | 41 | Interview prep — STAR stories in English |
+| 2026-07-06 | 41 | Explaining technical work in English — STAR structure |
 | 2026-07-27 | 42 | **Lab 2.5 — static routing R1↔R2 (operational)** |

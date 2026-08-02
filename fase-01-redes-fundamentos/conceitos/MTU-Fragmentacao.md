@@ -148,7 +148,7 @@ sudo iptables -t mangle -A FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --cl
 
 **Por que é o indicado num gateway de VPN:** é cirúrgico (só o TCP daquela conexão), automático (não cassa o número na mão), e — o que mais importa — **ajusta num ponto só e resolve pra todos os clientes** atrás do gateway. Por isso VPN, gateway e o CNI do Kubernetes fazem MSS clamping sozinhos.
 
-> **O inverso — jumbo frames:** no datacenter (mundo Equinix), pra performance, você *aumenta* o MTU: `sudo ip link set dev eth0 mtu 9000`. Caminhão gigante pra mover muito dado de uma vez (storage, backup). Não é conserto de travamento — é otimização.
+> **O inverso — jumbo frames:** no datacenter, pra performance, você *aumenta* o MTU: `sudo ip link set dev eth0 mtu 9000`. Caminhão gigante pra mover muito dado de uma vez (storage, backup). Não é conserto de travamento — é otimização.
 
 ## Por que DevOps importa
 
@@ -306,7 +306,7 @@ sudo iptables -t mangle -A FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --cl
 
 **Why it is the right fix at a VPN gateway:** it is surgical (only that connection's TCP), automatic (no hardcoding the number), and — most importantly — **it adjusts at a single point and fixes it for all the clients** behind the gateway. That is why VPN, a gateway and the Kubernetes CNI do MSS clamping on their own.
 
-> **The opposite — jumbo frames:** in the data center (the Equinix world), for performance, you *increase* the MTU: `sudo ip link set dev eth0 mtu 9000`. A giant truck to move a lot of data at once (storage, backup). Not a stall fix — an optimization.
+> **The opposite — jumbo frames:** in the data center, for performance, you *increase* the MTU: `sudo ip link set dev eth0 mtu 9000`. A giant truck to move a lot of data at once (storage, backup). Not a stall fix — an optimization.
 
 ## Why it matters for DevOps
 
