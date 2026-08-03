@@ -54,3 +54,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-07-04 | 40 | Routing table consolidation + flashcards |
 | 2026-07-06 | 41 | Explaining technical work in English — STAR structure |
 | 2026-07-27 | 42 | **Lab 2.5 — static routing R1↔R2 (operational)** |
+| 2026-08-02 | 43 | CCNA 1 sprint starts — Module 1 done + hexadecimal from scratch |
