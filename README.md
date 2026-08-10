@@ -13,7 +13,7 @@
 
 ## About
 
-I spent 8 years in the Brazilian Army. I enlisted in 2018, took part in the Federal Intervention in Rio de Janeiro, and graduated from the Sergeants' School of Arms (ESA) in 2022. Today I'm a career Third Sergeant, and I support my unit's IT section with the battalion's network and Linux servers — switches, cabling, servers, and support tickets.
+I spent 8 years in the Brazilian Army. I enlisted in 2018, took part in the Federal Intervention in Rio de Janeiro, and graduated from the Sergeants' School of Arms (ESA) in 2022. Today I'm a career Third Sergeant working in vehicle maintenance — and I'm building my move into network infrastructure through the Army's technical training and daily, documented study.
 
 In parallel, I'm completing a Computer Networks degree at Estácio University. I did technical internships in Linux and Networking at the Centro de Telemática de Área (5º CTA, Brazilian Army), and I'm currently enrolled in Network Fundamentals, Data Cabling, and IT Logistics courses at the Centro de Telemática de Área (1º CTA). In 2025 I earned my first certification (Oracle OCI Foundations).
 
