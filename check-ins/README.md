@@ -55,3 +55,7 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-07-06 | 41 | Explaining technical work in English — STAR structure |
 | 2026-07-27 | 42 | **Lab 2.5 — static routing R1↔R2 (operational)** |
 | 2026-08-02 | 43 | CCNA 1 sprint starts — Module 1 done + hexadecimal from scratch |
+| 2026-08-24 | 45 | **CCNA 1 completed — badge earned; target shifts to CCNA 200-301** |
+| 2026-08-28 | 46 | CCNA 2 (SRWE) theory archived before course closure |
+| 2026-08-29 | 47 | Month 01 consolidation summary |
+| 2026-09-06 | 48 | Weekly review — drill regression, gitignore hardening, Nutanix from zero |
