@@ -58,4 +58,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-08-24 | 45 | **CCNA 1 completed — badge earned; target shifts to CCNA 200-301** |
 | 2026-08-28 | 46 | CCNA 2 (SRWE) theory archived before course closure |
 | 2026-08-29 | 47 | Month 01 consolidation summary |
-| 2026-09-06 | 48 | Weekly review — drill regression, gitignore hardening, Nutanix from zero |
+| 2026-09-06 | 48 | Weekly review + Module 5 opened — hexadecimal, gitignore hardening, Nutanix from zero |
