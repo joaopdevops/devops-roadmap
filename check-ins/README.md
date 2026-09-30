@@ -60,3 +60,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-08-29 | 47 | Month 01 consolidation summary |
 | 2026-09-06 | 48 | Weekly review + Module 5 opened — hexadecimal, gitignore hardening, Nutanix from zero |
 | 2026-09-26 | 49 | **Gate check failed** — NCP-MCI exam moved to Dec 12, plan rebuilt, daily floor set at 25 min |
+| 2026-09-29 | 50 | Retrieval test — HCI fundamentals 3/4 after 9 days; live lesson vs. written notes |
