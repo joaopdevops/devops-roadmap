@@ -62,3 +62,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-09-26 | 49 | **Gate check failed** — NCP-MCI exam moved to Dec 12, plan rebuilt, daily floor set at 25 min |
 | 2026-09-29 | 50 | Retrieval test — HCI fundamentals 3/4 after 9 days; live lesson vs. written notes |
 | 2026-10-14 | 51 | Hexadecimal re-taught live — byte to hex (`11001010` → `CA`), /27 drill |
+| 2026-10-17 | 52 | 72-hour hex retest passed — `10111110` → `BE`, no letter table |
