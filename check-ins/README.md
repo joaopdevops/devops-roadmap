@@ -63,3 +63,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-09-29 | 50 | Retrieval test — HCI fundamentals 3/4 after 9 days; live lesson vs. written notes |
 | 2026-10-14 | 51 | Hexadecimal re-taught live — byte to hex (`11001010` → `CA`), /27 drill |
 | 2026-10-17 | 52 | 72-hour hex retest passed — `10111110` → `BE`, no letter table |
+| 2026-10-18 | 53 | **Nutanix 1.1 started** — node/cluster IP plan (`nodes × 3 + 2`), IPMI out-of-band, /27 drill fixed |
