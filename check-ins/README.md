@@ -67,4 +67,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-10-22 | 55 | **Fundamentals rebuilt from zero** — HCI, CVM, AHV, Prism Element vs Central; "one CVM per node" fixed live |
 | 2026-10-30 | 56–57 | **Nutanix 1.1 closed** — `nodes × 3 + 2` IP plan, CVM = storage (recurring mistake fixed), teach-back in English |
 | 2026-11-01 | 58 | Weekly review — 1.1 retest passed (acronym spelling fixed), /28 drill, new pace: 1–2 objectives/day with a fixed retest loop |
-| 2026-11-04 | 61 | **Nutanix 1.1 retest + 1.2 started** — 17-IP plan right, IPMI re-taught (out-of-band, hardware → AHV → CVM), /30 point-to-point drill, Prism Element vs Central |
+| 2026-11-04 | 61 | **Nutanix 1.1 retest + 1.2 closed** — 17-IP plan right, IPMI re-taught and recalled the same evening, /30 point-to-point drill, Prism Central (own VM and IP, cluster registration, AD vs RBAC), 3/3 check |
