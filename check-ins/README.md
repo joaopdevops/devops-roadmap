@@ -69,3 +69,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-11-01 | 58 | Weekly review — 1.1 retest passed (acronym spelling fixed), /28 drill, new pace: 1–2 objectives/day with a fixed retest loop |
 | 2026-11-04 | 61 | **Nutanix 1.1 retest + 1.2 closed** — 17-IP plan right, IPMI re-taught and recalled the same evening, /30 point-to-point drill, Prism Central (own VM and IP, cluster registration, AD vs RBAC), 3/3 check |
 | 2026-11-05 | 62 | **Network-ops simulator, configure mode** — 5 hands-on missions (VLAN, LACP, VRRP, rollback + `commit confirmed`, BGP) across Junos, EOS and SR OS, graded by the final state of the simulated network · **Nutanix 1.2 retest 4/5 (in English) + Objective 1.3 started** (virtual switch, VLAN-backed vs. overlay subnets, VPC) |
+| 2026-11-06 | 63 | English class + weekly plan — IT phrasal verbs, tense review, close reading of class texts |
