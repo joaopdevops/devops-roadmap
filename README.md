@@ -17,7 +17,7 @@ I spent 8 years in the Brazilian Army. I enlisted in 2018, took part in the Fede
 
 In parallel, I'm completing a Computer Networks degree at Estácio University. I did technical internships in Linux and Networking at the Centro de Telemática de Área (5º CTA, Brazilian Army), and I'm currently enrolled in Network Fundamentals, Data Cabling, and IT Logistics courses at the Centro de Telemática de Área (1º CTA). In 2025 I earned my first certification (Oracle OCI Foundations).
 
-My focus is **network infrastructure**: how networks are addressed, switched, routed, secured, and kept running. Switches, routers, cabling, addressing plans, connectivity troubleshooting — the physical and logical layers that everything else sits on. Automation comes later, and only on top of that base: you can't automate or secure infrastructure you don't understand. I'm currently in Phase 01, working through the full Cisco networking track (CCNA 1–3 via EsCom).
+My focus is **network infrastructure**: how networks are addressed, switched, routed, secured, and kept running. Switches, routers, cabling, addressing plans, connectivity troubleshooting — the physical and logical layers that everything else sits on. Automation comes later, and only on top of that base: you can't automate or secure infrastructure you don't understand. I'm currently preparing for the **CCNA 200-301** (exam window ~March 2027): baseline diagnostic done on Nov 7, 2026, and a week-by-week plan in place — fundamentals first, then switching, routing and services.
 
 Every phase here ends the same way: something built, documented, and explained — because in infrastructure, an undocumented fix is a fix nobody can repeat.
 
