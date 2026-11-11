@@ -72,4 +72,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-11-06 | 63 | English class + weekly plan (IT phrasal verbs, tense review) · **Decision: CCNA 200-301 becomes the main track** (exam target Feb–Mar 2027); Nutanix out of focus |
 | 2026-11-07 | 64 | **CCNA baseline + plan to exam day** — fundamentals check, week-by-week plan to ~March 2027, study system rebuilt on retrieval and spaced review |
 | 2026-11-10 | 65 | English reading (power distance, 8/8) + tense review class · CCNA recall: /25 4/4, OSI layer count fixed (7) · track shifted 3 days |
-| 2026-11-11 | 66 | **Binary + subnet masks** — why the mask math works, borrowed bits → subnets, finding the subnet of an IP · daily drill upgraded to full subnet calculation |
+| 2026-11-11 | 66 | **Binary + subnet masks** — why the mask math works, borrowed bits → subnets, finding the subnet of an IP · daily drill upgraded to full subnet calculation · evening: first retrieval notebook + subnet drill 3/3 (incl. first /29) |
