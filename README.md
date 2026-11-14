@@ -98,7 +98,7 @@ Each phase follows the same layout:
 | CCNA 1: Introduction to Networks — Cisco Networking Academy (via EsCom, Brazilian Army) | 🎯 In progress 2026 |
 | CCNA 2: Switching, Routing & Wireless Essentials — Cisco Networking Academy (via EsCom) | ⏳ Next |
 | CCNA 3: Enterprise Networking, Security & Automation — Cisco Networking Academy (via EsCom) | ⏳ Planned |
-| CCNA 200-301 — Cisco Certified Network Associate | 🎯 Main target — exam window Feb–Mar 2027 |
+| CCNA 200-301 (v2.0) — Cisco Certified Network Associate | 🎯 Main target — exam window Apr–May 2027 (v2.0 blueprint) |
 | CKA — Certified Kubernetes Administrator | ⏳ Later |
 | AWS Solutions Architect Associate | ⏳ Later |
 

@@ -73,3 +73,4 @@ As anotações pessoais completas ficam num vault privado; aqui fica o registro 
 | 2026-11-07 | 64 | **CCNA baseline + plan to exam day** — fundamentals check, week-by-week plan to ~March 2027, study system rebuilt on retrieval and spaced review |
 | 2026-11-10 | 65 | English reading (power distance, 8/8) + tense review class · CCNA recall: /25 4/4, OSI layer count fixed (7) · track shifted 3 days |
 | 2026-11-11 | 66 | **Binary + subnet masks** — why the mask math works, borrowed bits → subnets, finding the subnet of an IP · daily drill upgraded to full subnet calculation · evening: first retrieval notebook + subnet drill 3/3 (incl. first /29) |
+| 2026-11-14 | 68 | **CCNA v2.0 re-plan** — read the new official exam topics (5 domains, troubleshooting-first, new AI domain), mapped all 29 topics to my study material and rebuilt the plan for an Apr–May 2027 exam window · OSI as troubleshooting vocabulary |
